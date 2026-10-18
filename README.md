@@ -1,15 +1,13 @@
-# My First Project
+# Hammarby Sjöstad
 
-My practice project for learning Git and GitHub.
+A simple, responsive neighbourhood guide to Hammarby Sjöstad, Stockholm. Built with HTML and CSS, with an original SVG waterfront illustration.
 
-## Getting started
+## Preview locally
 
-Edit this file or add project files, then save a snapshot of your work:
+Run `python3 -m http.server 8080 --directory dist`, then open http://localhost:8080.
 
-```sh
-git add .
-git commit -m "Describe what changed"
-git push
-```
+## Edit
 
-Use `git status` to see changes before committing.
+All page content and styling are in `dist/index.html`. No dependencies or build step are required.
+
+Content sources are linked in the page footer.
